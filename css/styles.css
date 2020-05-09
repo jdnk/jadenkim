@@ -29,6 +29,10 @@ body {
   color: black;
 }
 
+.foot-wrapper a{
+  color: black;
+}
+
 .foot-wrapper a:visited {
   text-decoration: none;
   color: black;
