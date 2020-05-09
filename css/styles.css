@@ -94,6 +94,7 @@ header nav a:hover {
 }
 
 .mylist li a {
+  color: #ff0000;
   text-decoration: none;
 }
 
