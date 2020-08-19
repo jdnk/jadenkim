@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="https://use.typekit.net/fcm4owf.css">
   <link rel="icon" type="image/png" href="assets/favicon.png"/>
 
-  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script>
   $(function() {
-    var gif = $.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC");
+    var gif = $.get("https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC");
     gif.done(function(data) {
       $('.sausage').css('background-image', 'url(' + data.data.image_url + ')');
     });
