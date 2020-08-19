@@ -51,13 +51,21 @@ header nav {
   text-decoration: none;
 }
 
+header a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 header h1 {
   font-size: 40px;
   font-weight: 400;
   color: #ff0000;
   text-decoration: none;
   margin: 0;
-  margin-bottom: 0.5em;
+  padding: 0;
+  border: 0;
+  /* margin-bottom: 0.5em; */
 }
 
 header nav a:visited {
@@ -214,3 +222,18 @@ header nav a:hover {
   padding-top: 1em;
   width: 50vw;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .photo-archive li img{
+    width: 100vw;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
