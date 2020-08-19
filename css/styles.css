@@ -10,7 +10,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  font-size: 15px;
+  font-size: 15px
   color: black;
 }
 
@@ -46,12 +46,8 @@ body {
 
 header nav {
   display: flex;
-  flex-wrap: nowrap;
-  padding-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 1em;
   justify-content: space-between;
-  margin: 0%;
   text-decoration: none;
 }
 
@@ -60,13 +56,8 @@ header h1 {
   font-weight: 400;
   color: #ff0000;
   text-decoration: none;
-  margin: 0%;
-}
-
-header nav a {
   margin: 0;
-  border: 0;
-  padding: 0;
+  margin-bottom: 0.5em;
 }
 
 header nav a:visited {
@@ -80,61 +71,8 @@ header nav a:hover {
   text-decoration: none;
 }
 
-/* INDEX.HTML */
-
-.in-nav {
-  font-weight: 400;
-  color: #f3f3f3;
-  text-decoration: none;
-  text-align: left;
-  padding: 0.5em;
-  margin: 0%;
-}
-
-.mylist {
-  color: #ff0000;
-  font-weight: 400;
-  text-decoration: none;
-  margin: 0%;
-}
-
-.mylist li a {
-  color: #ff0000;
-  text-decoration: none;
-}
-
-.mylist li a:hover {
-  color: #ff0000;
-  text-decoration: underline;
-}
-
-.mylist li a:visited {
-  color: #ff0000;
-  text-decoration: none;
-}
-
-/* CODE.HTML */
-
-.archive {
-  height: 87vh;
-  text-decoration: none;
-  list-style: none;
-  z-index: 2;
-  padding-left: 1em;
-  padding-right: 1em;
+.gen {
   margin-top: 5em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  position: absolute;
-}
-
-.archive li {
-  font-weight: 400;
-  text-decoration: none;
-  margin: 0;
-  border: 0;
-  padding-right: 2em;
 }
 
 .flexman {
@@ -143,7 +81,6 @@ header nav a:hover {
   margin: 0;
   border: 0;
   padding: 0;
-  width: 47vw;
 }
 
 .mytitle {
@@ -161,6 +98,25 @@ header nav a:hover {
   margin: 0;
   border: 0;
   padding: 0;
+}
+
+.archive {
+  text-decoration: none;
+  list-style: none;
+  z-index: 2;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.archive li {
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0;
+  border: 0;
+  padding-right: 3em;
 }
 
 .archive li a {
@@ -188,7 +144,7 @@ header nav a:hover {
 }
 
 .ytt-r a:hover:after {
-    content: url(../assets/art/ytt-r/today-reprise.jpg); /* no need for qoutes */
+    content: url(../assets/art/ytt-r/today-reprise.jpg);
     display: flex;
     position: fixed;
     top: 50%;
@@ -206,7 +162,7 @@ header nav a:hover {
 }
 
 .kid-a a:hover:after {
-    content: url(../assets/art/kid-a/kid-a-front.jpg); /* no need for qoutes */
+    content: url(../assets/art/kid-a/kid-a-front.jpg);
     display: flex;
     position: fixed;
     top: 50%;
@@ -224,7 +180,7 @@ header nav a:hover {
 }
 
 .ytt a:hover:after {
-    content: url(../assets/art/ytt/yesterday.jpg); /* no need for qoutes */
+    content: url(../assets/art/ytt/yesterday.jpg);
     display: flex;
     position: fixed;
     top: 50%;
@@ -248,7 +204,6 @@ header nav a:hover {
   z-index: 2;
   padding-left: 1em;
   padding-right: 1em;
-  margin-top: 5em;
   position: absolute;
 }
 
@@ -258,59 +213,4 @@ header nav a:hover {
   border: 0;
   padding-top: 1em;
   width: 50vw;
-}
-
-/* ME.HTML */
-
-.left {
-  margin-top: 5em;
-  width: 45vw;
-  padding-left: 1em;
-  padding-right: 1em;
-  z-index: 10;
-  position: absolute;
-}
-
-.right {
-  margin-top: 1em;
-  left: 50vw;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 45vw;
-  z-index: 10;
-  position: absolute;
-}
-
-.flexman2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  width: 45vw;
-}
-
-.chickenwrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  position: absolute;
-}
-
-.jaden p:hover {
-    position: relative;
-}
-
-.jaden p:hover:after {
-    content: url(../assets/jaden.jpg); /* no need for qoutes */
-    display: flex;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -10;
-    pointer-events: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }

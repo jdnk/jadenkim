@@ -8,66 +8,83 @@
   <meta name="description" content="Jaden Kim">
   <meta name="author" content="Jaden Kim">
 
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/me.css">
+  <link rel="stylesheet" href="https://use.typekit.net/fcm4owf.css">
 
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script>
+  $(function() {
+    var gif = $.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC");
+    gif.done(function(data) {
+      $('.sausage').css('background-image', 'url(' + data.data.image_url + ')');
+    });
+  });
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .mine {
+      background:url('') no-repeat center center;
+      width:100%;
+      height:100%;
+      min-height:100%; /* for mobile and tablets */
+      background-size:cover;
+      padding: 25px;
+      position:absolute
+    }
+  </style>
 </head>
 
 <body>
-  <div class="wrapper">
-  <header>
-    <nav>
-      <a href="#"><h1 class="navtext">About Me/Contact</h1></a>
-      <a href="index.html"><img src="assets/logo.svg" class="logo" alt=Jaden Kim></a>
-    </nav>
-  </header>
-  </div>
+  <div class="sausage">
+    <div class="bio">
+      <h1>
+        Hi, my name is...
+      </h1>
+      <p>
+        <u>Jaden.</u>
+      </p>
+      <br>
+    </div>
 
-<div class="chickenwrap">
-  <div class="left">
-    <p>
-      Hi, this is me. I’m a rising junior at Pomona College. This is the part where I’m supposed to talk about myself so you have a better idea of who I am and so that I have a better chance of getting hired and stuff. So I’ll start off with the important stuff. I’m a Computer Science major with expertise in Python, Java, C/C++, and Swift. I doDatabase stuff too: MySQL, MongoDB. And I do Fullstack. I know the MERN Stack, though I just used native HTML/CSS/JS for this website since it was simple enough. Oh, and I design. I do iOS development, too. And I’ve published a research paper on Pathfinding AI for 2D Platformers. I really like meeting and getting to know new people (though I know it doesn’t seem like it because I’m writing so coldly and lifelessly. I’m just trying to keep up the aesthetic I’ve set for this website: cold and bleak and minimal, promise). I play guitar and produce music, as well. I love to travel. Last summer, I taught English in Shanghai. Was lots of lots of fun. Thanks, Jaden.
-    </p>
-  </div>
+    <div class="bio">
+      <h1>
+        I am a computer science major at...
+      </h1>
+      <p>
+        <u>Pomona College.</u>
+      </p>
+      <br>
+    </div>
 
-  <div class="right">
-    <ul class="archive">
-      <li>
-        <div class="flexman2">
-        <p class="mydate">Email:</p>
-        <p class="mytitle"><a href="mailto:jaden.kim@pomona.edu">jaden.kim@pomona.edu</a></p>
-        </div>
-      </li>
-      <li>
-        <div class="flexman2">
-        <p class="mydate">Phone:</p>
-        <p class="mytitle"><a href="tel:+15627084854">(562) 708 4854</a></p>
-        </div>
-      </li>
-      <li>
-        <div class="flexman2">
-        <p class="mydate">Github:</p>
-        <p class="mytitle"><a href="https://github.com/jdnk">github.com/jdnk</a></p>
-        </div>
-      </li>
-      <li>
-        <div class="flexman2">
-        <p class="mydate">LinkedIn:</p>
-        <p class="mytitle"><a href="https://linkedin.com/jdnk">linkedin.com/jdnk</a></p>
-        </div>
-      </li>
-      <li class="jaden">
-        <div class="flexman2">
-        <p class="mydate">Me:</p>
-        <p class="mytitle">(Hover here)</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-  <div class="foot-wrapper">
-    <footer>
-        <a href="index.html">(Back)</a>
-    </footer>
+    <div class="bio">
+      <h1>
+        I like...
+      </h1>
+      <p>
+        <u>meeting new people!</u>
+      </p>
+      <br>
+    </div>
+
+    <div class="bio norm">
+      <h1>
+        You can email me...
+      </h1>
+      <p>
+        <u><a href=mailto:jaden.kim@pomona.edu>here.<a></u>
+      </p>
+      <br>
+    </div>
+
+    <div class="bio small">
+      <h1>
+        <a href="index.html">Click here to go back.<a>
+      </h1>
+    </div>
   </div>
 </body>
 </html>

@@ -3,41 +3,65 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Jaden Kim</title>
   <meta name="description" content="Jaden Kim">
   <meta name="author" content="Jaden Kim">
 
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="https://use.typekit.net/fcm4owf.css">
 
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script>
+  $(function() {
+    var gif = $.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC");
+    gif.done(function(data) {
+      $('.mine').css('background-image', 'url(' + data.data.image_url + ')');
+    });
+  });
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .mine {
+      background:url('') no-repeat center center;
+      width:100%;
+      height:100%;
+      min-height:100%; /* for mobile and tablets */
+      background-size:cover;
+      padding: 25px;
+      position:absolute
+    }
+  </style>
 </head>
 
-<body style="background-image: url(assets/background.svg)">
-  <header>
-    <h1 class="in-nav">Computer Science Major<br>&& Graphic Designer</h1>
-  </header>
+<body>
 
-  <div class="mylist">
-    <ol type="I">
-      <li><a href="code.html"><p>
-        <u>Coding Projects:</u>
-        <br>
-        Projects I've worked on over the past year or so.
-      </p></a></li>
+<table class="mine" id="wrapper">
+  <tr class=top>
+    <td>Jaden Kim</td>
+  </tr>
+  <tr class=mid>
+    <td>Graphic Designer and Computer Science Major</td>
+  </tr>
+  <tr class=bot>
+    <td>
+      <ul>
+      <li><a href="./code/index.html">
+        Coding Projects</a></li>
 
-      <li><a href="art.html"><p>
-        <u>Design Portfolio:</u>
-        <br>
-        Collection of designs from over the past few years.
-      </p></a></li>
+      <li><a href="./art/index.html">
+        Design Portfolio</a></li>
 
-      <li><a href="me.html"><p>
-        <u>About Me/Contact:</u>
-        <br>
-        Email and skills and all that good get-me-a-job stuff.
-      </p></a></li>
-    </ol>
-  </div>
+      <li><a href="me.html">
+        About Me/Contact</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 </body>
 </html>
