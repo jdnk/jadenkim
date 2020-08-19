@@ -79,6 +79,11 @@ header nav a:hover {
   text-decoration: none;
 }
 
+.logo {
+  color: black;
+  line-height: 0.75;
+}
+
 .gen {
   margin-top: 5em;
 }
@@ -226,7 +231,7 @@ header nav a:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .photo-archive li img{
-    width: 90vw;
+    width: 87.5vw;
   }
 }
 

@@ -6,14 +6,10 @@ a {
 html ::selection {
   background-color: #ff0000;
   color: #ffffff;
-  outline: #0000ff;
 }
 
 body {
   font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   font-size: 15px
   color: black;
 }

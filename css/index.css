@@ -49,26 +49,15 @@ table {
 }
 
 .mid td {
-  font-size: 2.5vw;
-  font-family: "Monarcha", “Helvetica Neue”, Helvetica, Arial, sans-serif;
-  font-style: italic;
-  text-align: center;
-  padding-top: 0;
-  padding-bottom: 0;
-  vertical-align: baseline;
-  height: 4.5em;
-}
-
-.bot td {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   padding-top: 0;
   vertical-align: top;
 }
 
-.bot td ul {
+.mid td ul {
   padding: 0;
-  padding-right: 30%;
-  padding-left: 30%;
+  padding-right: 20%;
+  padding-left: 20%;
   margin: 0;
   font-weight: 400;
   text-decoration: none;
@@ -77,17 +66,28 @@ table {
   justify-content: space-between;
 }
 
-.bot td ul li a {
+.mid td ul li a {
   color: #ff0000;
   text-decoration: none;
 }
 
-.bot td ul li a:hover {
+.mid td ul li a:hover {
   color: #ff0000;
   text-decoration: underline;
 }
 
-.bot td ul li a:visited {
+.mid td ul li a:visited {
   color: #ff0000;
   text-decoration: none;
+}
+
+.bot td {
+  font-size: 1vw;
+  font-family: "Monarcha", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: baseline;
+  height: 4.5em;
 }
