@@ -5,8 +5,8 @@
       "path---portraits-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-yards-js": [
-      "component---src-pages-yards-js-71a5ce4a515dcb4a6beb.js",
-      "component---src-pages-yards-js-71a5ce4a515dcb4a6beb.js.map"
+      "component---src-pages-yards-js-6640a063b3503d374874.js",
+      "component---src-pages-yards-js-6640a063b3503d374874.js.map"
     ],
     "component---src-pages-work-js": [
       "component---src-pages-work-js-75d09111e7610dd9d4f4.js",
@@ -20,13 +20,9 @@
       "component---src-pages-index-js-89f92b18315c855373c7.js",
       "component---src-pages-index-js-89f92b18315c855373c7.js.map"
     ],
-    "component---src-pages-gina-k-acupuncture-js": [
-      "component---src-pages-gina-k-acupuncture-js-25e8ec2caa1675071d46.js",
-      "component---src-pages-gina-k-acupuncture-js-25e8ec2caa1675071d46.js.map"
-    ],
     "component---src-pages-portraits-js": [
-      "component---src-pages-portraits-js-3ef860263f303ff61830.js",
-      "component---src-pages-portraits-js-3ef860263f303ff61830.js.map"
+      "component---src-pages-portraits-js-db0a531bdce948d2e503.js",
+      "component---src-pages-portraits-js-db0a531bdce948d2e503.js.map"
     ],
     "path---": [
       "path----b41deaafd4fc6d048a11.js",
@@ -45,8 +41,8 @@
       "path---yards-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-i-2-we-js": [
-      "component---src-pages-i-2-we-js-d2ca2d81f37aa6c8184e.js",
-      "component---src-pages-i-2-we-js-d2ca2d81f37aa6c8184e.js.map"
+      "component---src-pages-i-2-we-js-ec1d534cd1d7e616ea7c.js",
+      "component---src-pages-i-2-we-js-ec1d534cd1d7e616ea7c.js.map"
     ],
     "path---art": [
       "path---art-a0e39f21c11f6a62c5ab.js",
@@ -57,8 +53,8 @@
       "component---src-layouts-index-js-fc0ce2147e04054e823a.js.map"
     ],
     "component---src-pages-friends-js": [
-      "component---src-pages-friends-js-ecadcd920f700c98dfc2.js",
-      "component---src-pages-friends-js-ecadcd920f700c98dfc2.js.map"
+      "component---src-pages-friends-js-a174d67b76f70ffa6aba.js",
+      "component---src-pages-friends-js-a174d67b76f70ffa6aba.js.map"
     ],
     "path---helia-mono": [
       "path---helia-mono-a0e39f21c11f6a62c5ab.js",
@@ -81,12 +77,12 @@
       "component---src-pages-404-js-56e0d00cdd202041890d.js.map"
     ],
     "component---src-pages-code-js": [
-      "component---src-pages-code-js-3b63a770ba79f2e7b21a.js",
-      "component---src-pages-code-js-3b63a770ba79f2e7b21a.js.map"
+      "component---src-pages-code-js-9dcc6a93ce11a804607b.js",
+      "component---src-pages-code-js-9dcc6a93ce11a804607b.js.map"
     ],
     "commons": [
-      "commons-e71e67d34c5df3411dca.js",
-      "commons-e71e67d34c5df3411dca.js.map"
+      "commons-bb42045903d19f542abf.js",
+      "commons-bb42045903d19f542abf.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -97,17 +93,13 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-helia-mono-js": [
-      "component---src-pages-helia-mono-js-08ff14d1ded627da748e.js",
-      "component---src-pages-helia-mono-js-08ff14d1ded627da748e.js.map"
-    ],
-    "path---gina-k-acupuncture": [
-      "path---gina-k-acupuncture-a0e39f21c11f6a62c5ab.js",
-      "path---gina-k-acupuncture-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-pages-helia-mono-js-3a3e39c8fb37857a885a.js",
+      "component---src-pages-helia-mono-js-3a3e39c8fb37857a885a.js.map"
     ],
     "app": [
-      "app-2d5a77a35cd3aa0dc1f4.js",
+      "app-d91bac7fbd0780d05cbc.js",
       "build-js-styles.css",
-      "app-2d5a77a35cd3aa0dc1f4.js.map",
+      "app-d91bac7fbd0780d05cbc.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -115,8 +107,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-art-js": [
-      "component---src-pages-art-js-f92e3a546f0ec2f65054.js",
-      "component---src-pages-art-js-f92e3a546f0ec2f65054.js.map"
+      "component---src-pages-art-js-f68c45d30bb568244fce.js",
+      "component---src-pages-art-js-f68c45d30bb568244fce.js.map"
     ]
   }
 }
