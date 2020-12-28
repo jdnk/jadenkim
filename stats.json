@@ -1,32 +1,72 @@
 {
   "assetsByChunkName": {
+    "path---portraits": [
+      "path---portraits-a0e39f21c11f6a62c5ab.js",
+      "path---portraits-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-yards-js": [
+      "component---src-pages-yards-js-71a5ce4a515dcb4a6beb.js",
+      "component---src-pages-yards-js-71a5ce4a515dcb4a6beb.js.map"
+    ],
     "component---src-pages-work-js": [
-      "component---src-pages-work-js-302c45b0a46af6603097.js",
-      "component---src-pages-work-js-302c45b0a46af6603097.js.map"
+      "component---src-pages-work-js-75d09111e7610dd9d4f4.js",
+      "component---src-pages-work-js-75d09111e7610dd9d4f4.js.map"
     ],
     "path---work": [
       "path---work-a0e39f21c11f6a62c5ab.js",
       "path---work-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-79550e34c0b1776dd3e8.js",
-      "component---src-pages-index-js-79550e34c0b1776dd3e8.js.map"
+      "component---src-pages-index-js-89f92b18315c855373c7.js",
+      "component---src-pages-index-js-89f92b18315c855373c7.js.map"
+    ],
+    "component---src-pages-gina-k-acupuncture-js": [
+      "component---src-pages-gina-k-acupuncture-js-25e8ec2caa1675071d46.js",
+      "component---src-pages-gina-k-acupuncture-js-25e8ec2caa1675071d46.js.map"
+    ],
+    "component---src-pages-portraits-js": [
+      "component---src-pages-portraits-js-3ef860263f303ff61830.js",
+      "component---src-pages-portraits-js-3ef860263f303ff61830.js.map"
     ],
     "path---": [
       "path----b41deaafd4fc6d048a11.js",
       "path----b41deaafd4fc6d048a11.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-535ec85e3e8994ec6653.js",
-      "component---src-pages-contact-js-535ec85e3e8994ec6653.js.map"
+      "component---src-pages-contact-js-27bba1c45d56caa42d57.js",
+      "component---src-pages-contact-js-27bba1c45d56caa42d57.js.map"
+    ],
+    "path---friends": [
+      "path---friends-a0e39f21c11f6a62c5ab.js",
+      "path---friends-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---yards": [
+      "path---yards-a0e39f21c11f6a62c5ab.js",
+      "path---yards-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-i-2-we-js": [
+      "component---src-pages-i-2-we-js-d2ca2d81f37aa6c8184e.js",
+      "component---src-pages-i-2-we-js-d2ca2d81f37aa6c8184e.js.map"
     ],
     "path---art": [
       "path---art-a0e39f21c11f6a62c5ab.js",
       "path---art-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5de9ed0982fd99492209.js",
-      "component---src-layouts-index-js-5de9ed0982fd99492209.js.map"
+      "component---src-layouts-index-js-fc0ce2147e04054e823a.js",
+      "component---src-layouts-index-js-fc0ce2147e04054e823a.js.map"
+    ],
+    "component---src-pages-friends-js": [
+      "component---src-pages-friends-js-ecadcd920f700c98dfc2.js",
+      "component---src-pages-friends-js-ecadcd920f700c98dfc2.js.map"
+    ],
+    "path---helia-mono": [
+      "path---helia-mono-a0e39f21c11f6a62c5ab.js",
+      "path---helia-mono-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---i-2-we": [
+      "path---i-2-we-a0e39f21c11f6a62c5ab.js",
+      "path---i-2-we-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -37,16 +77,16 @@
       "path---code-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-e2d45737bfa65218122f.js",
-      "component---src-pages-404-js-e2d45737bfa65218122f.js.map"
+      "component---src-pages-404-js-56e0d00cdd202041890d.js",
+      "component---src-pages-404-js-56e0d00cdd202041890d.js.map"
     ],
     "component---src-pages-code-js": [
-      "component---src-pages-code-js-c9232a3dfee98e9cbcdf.js",
-      "component---src-pages-code-js-c9232a3dfee98e9cbcdf.js.map"
+      "component---src-pages-code-js-3b63a770ba79f2e7b21a.js",
+      "component---src-pages-code-js-3b63a770ba79f2e7b21a.js.map"
     ],
     "commons": [
-      "commons-db82dd4b05d50c23aeb5.js",
-      "commons-db82dd4b05d50c23aeb5.js.map"
+      "commons-e71e67d34c5df3411dca.js",
+      "commons-e71e67d34c5df3411dca.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -56,10 +96,18 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-helia-mono-js": [
+      "component---src-pages-helia-mono-js-08ff14d1ded627da748e.js",
+      "component---src-pages-helia-mono-js-08ff14d1ded627da748e.js.map"
+    ],
+    "path---gina-k-acupuncture": [
+      "path---gina-k-acupuncture-a0e39f21c11f6a62c5ab.js",
+      "path---gina-k-acupuncture-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-cdb3adde4e629335c768.js",
+      "app-2d5a77a35cd3aa0dc1f4.js",
       "build-js-styles.css",
-      "app-cdb3adde4e629335c768.js.map",
+      "app-2d5a77a35cd3aa0dc1f4.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -67,8 +115,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-art-js": [
-      "component---src-pages-art-js-db7d978df28aa50293f8.js",
-      "component---src-pages-art-js-db7d978df28aa50293f8.js.map"
+      "component---src-pages-art-js-f92e3a546f0ec2f65054.js",
+      "component---src-pages-art-js-f92e3a546f0ec2f65054.js.map"
     ]
   }
 }
