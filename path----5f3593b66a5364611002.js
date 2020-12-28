@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{110:function(e,o){e.exports={data:{site:{siteMetadata:{title:"Jaden Kim",description:"Designed by Jaden in React.",keywords:"portfolio, react, gatsby, jaden, jaden kim, design, design portfolio, code, code portfolio, i need a job"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----5f3593b66a5364611002.js.map
